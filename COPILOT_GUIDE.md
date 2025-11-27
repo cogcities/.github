@@ -14,9 +14,13 @@ In our context, Copilot Entelechy means:
 
 **Measuring Effectiveness**:
 - Reduced time to understand codebase (e.g., 2 hours → 30 minutes for new features)
+  - *Measured via*: Developer time tracking and onboarding surveys
 - Fewer context-related bugs (e.g., 40% reduction in "didn't know about X" issues)
+  - *Measured via*: Issue categorization and root cause analysis
 - Faster onboarding (e.g., new developers productive in days instead of weeks)
+  - *Measured via*: Time to first meaningful contribution
 - More consistent patterns (e.g., 90%+ adherence to established conventions)
+  - *Measured via*: Code review feedback and automated linting reports
 
 ## 🎯 Core Principles
 

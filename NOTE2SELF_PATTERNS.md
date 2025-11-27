@@ -76,7 +76,8 @@ Or in code comments:
 ```python
 # note2self: Citizen PII is encrypted using Cogpilot encryption-lib
 # with AES-256-GCM. Keys are rotated quarterly by the key-management
-# service. Never log or cache unencrypted PII - violates GDPR/CCPA.
+# service. Never log or cache unencrypted PII - violates GDPR, CCPA,
+# and other applicable data protection laws.
 ```
 
 ### 7. Business Logic

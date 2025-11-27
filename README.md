@@ -35,6 +35,12 @@ This special `.github` repository serves as:
 
 **Entelechy** (ἐντελέχεια) - the continuous actualization of inherent potential into reality.
 
+In our GitHub Copilot context, this means:
+- **Code Knowledge Grows**: Each documented decision becomes context for future sessions
+- **Patterns Emerge**: Repeated solutions become established conventions
+- **Learning Accelerates**: Understanding compounds rather than resets
+- **Quality Improves**: AI suggestions get better as context deepens
+
 When working in Cogcities repositories:
 - **Introspect First**: Review existing patterns before creating new ones
 - **Leave Breadcrumbs**: Document decisions with `note2self` comments
