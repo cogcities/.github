@@ -54,7 +54,7 @@ Or in code comments:
 **When**: Explaining why code exists in a certain way
 
 ```python
-# note2self: Legacy support for v1 API format maintained until Q1 2025.
+# note2self: Legacy support for v1 API format maintained until Q2 2026.
 # Three cities (NYC, LA, Chicago) still on old mobile apps that can't
 # upgrade immediately due to app store review cycles. Removal tracked
 # in issue #456.
@@ -114,7 +114,7 @@ timeout: 30
 
 ```python
 # note2self: Migrating from v1 to v2 city data schema. Both formats
-# supported during transition (Nov 2024 - Mar 2025). v1 detector:
+# supported during transition (Nov 2025 - Mar 2026). v1 detector:
 # checks for 'cityData' vs 'city_data' field naming. Remove v1 support
 # after migration deadline in issue #789.
 ```
@@ -189,8 +189,8 @@ def get_city_population(city_id):
 
 ### Outdated Context
 ```python
-# note2self: Temporary workaround until API v1 is fixed (June 2022)
-# (Still present in November 2024...)
+# note2self: Temporary workaround until API v1 is fixed (June 2023)
+# (Still present in November 2025...)
 ```
 **Problem**: Not maintained; creates confusion about current state.
 
@@ -291,7 +291,7 @@ def cleanup_old_data(city_id: str):
 ### Example: Backward Compatibility
 ```python
 # note2self: Supporting both 'cityId' (v1) and 'city_id' (v2) field
-# names during API migration. v2 is preferred. v1 support ends Q2 2025.
+# names during API migration. v2 is preferred. v1 support ends Q2 2026.
 # Client detection: v1 clients send 'X-API-Version: 1' header.
 # See migration guide: docs/api-migration-v1-to-v2.md
 def normalize_request(data: dict) -> dict:

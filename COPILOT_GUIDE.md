@@ -12,6 +12,12 @@ In our context, Copilot Entelechy means:
 - Knowledge accumulates rather than resets
 - The AI becomes increasingly effective over time
 
+**Measuring Effectiveness**:
+- Reduced time to understand codebase (e.g., 2 hours → 30 minutes for new features)
+- Fewer context-related bugs (e.g., 40% reduction in "didn't know about X" issues)
+- Faster onboarding (e.g., new developers productive in days instead of weeks)
+- More consistent patterns (e.g., 90%+ adherence to established conventions)
+
 ## 🎯 Core Principles
 
 ### 1. Introspection First
@@ -36,7 +42,7 @@ Leave breadcrumbs for future Copilot sessions:
 **Good Context Anchoring**:
 ```python
 # note2self: This uses the Cogpilot auth library (v2.1+)
-# We migrated from custom auth on 2024-11-15 to standardize
+# We migrated from custom auth on 2025-03-15 to standardize
 # across enterprise. See cogpilot/auth-lib for details.
 from cogpilot.auth import AuthManager
 ```
@@ -86,7 +92,7 @@ Strategic comments that provide context for future AI and human developers.
 
 ```markdown
 > **note2self**: The legacy city-data format is still supported for 
-> backward compatibility with cities deployed before Q3 2024. New cities 
+> backward compatibility with cities deployed before Q3 2025. New cities 
 > should use the standardized Cogpilot data schema (v3).
 ```
 

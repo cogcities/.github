@@ -33,7 +33,7 @@ This special `.github` repository serves as:
 
 ### Copilot Entelechy Principles
 
-**Entelechy** (ἐντελέχεια) - the realization of potential, becoming actual from potential.
+**Entelechy** (ἐντελέχεια) - the continuous actualization of inherent potential into reality.
 
 When working in Cogcities repositories:
 - **Introspect First**: Review existing patterns before creating new ones
